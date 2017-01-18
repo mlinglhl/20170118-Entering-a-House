@@ -107,7 +107,7 @@
         <!--View Controller-->
         <scene sceneID="Ga6-NY-NQS">
             <objects>
-                <viewController id="GWO-Ir-m30" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="kitchen" id="GWO-Ir-m30" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rsd-EF-Z2R"/>
                         <viewControllerLayoutGuide type="bottom" id="2K1-og-oAf"/>

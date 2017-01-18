@@ -31,7 +31,10 @@
 }
 
 - (void) goBackToStart {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+//    [self.navigationController popToRootViewControllerAnimated:YES];
+    ViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"kitchen"];
+    [self.navigationController pushViewController:vc animated:YES];
+    //    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
